@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.priyanka.connect.MyQuestionCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/myQuestionLayout"
+    android:layout_marginTop="8dp"
+    android:padding="8dp"
+    android:layout_marginBottom="8dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/questionTv"
+        android:textSize="@dimen/questionSize"
+        android:textColor="@color/questionColor"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/answerLayout"
+        android:visibility="gone"
+        android:animateLayoutChanges="true">
+    <TextView
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/answerTv"
+        android:textSize="@dimen/questionSize"
+        android:textColor="@color/answerColor"/>
+        <TextView
+            android:layout_below="@id/answerTv"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingTv"
+            android:textSize="@dimen/questionSize"
+            android:textColor="@color/ratingColor"/>
+        <TextView
+            android:layout_below="@id/answerTv"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timeTv"
+            android:textSize="@dimen/questionSize"
+            android:textColor="@color/timeColor"/>
+    </RelativeLayout>
+</com.example.priyanka.connect.MyQuestionCardView>

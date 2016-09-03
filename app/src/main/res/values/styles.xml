@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+    <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/status_bar_color</item>
+        <item name="alertDialogTheme">@style/Makaan_Dialog_Theme</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="Makaan_Dialog_Theme" parent="@style/Theme_Holo_Dialog_Alert">
+    </style>
+    <style name="Theme_Holo_Dialog_Alert" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowTitleStyle">@style/Dialog_Title</item>
+ <!--       <item name="buttonBarButtonStyle">@style/Button_Borderless</item>
+-->    </style>
+    <style name="Dialog_Title">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Holo.DialogWindowTitle</item>
+    </style>
+<!--
+    <style name="Button_Borderless" parent="Base.Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:background">@drawable/textview_background_selector</item>
+        <item name="android:textColor">@color/textview_text_selector</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+-->
+    <declare-styleable name="fontTextView">
+        <attr name="fontName" format="string" />
+        <attr name="normal_text" format="boolean"/>
+    </declare-styleable>
+
+
+</resources>

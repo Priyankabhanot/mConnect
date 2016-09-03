@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1054037629386",
+    "firebase_url": "https://connect-5c363.firebaseio.com",
+    "project_id": "connect-5c363",
+    "storage_bucket": "connect-5c363.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054037629386:android:7d974480ae1e3dcc",
+        "android_client_info": {
+          "package_name": "com.example.priyanka.connect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054037629386-tfoij265f0rfsv4ashl0q4klkiso864o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmyIrtLJrCnO5fk652CKQAHjfP3W-GBZo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="red">#FF0000</color>
+    <color name="status_bar_color">#B91620</color>
+    <color name="tab_select_color">#E71C28</color>
+
+    <color name="questionColor">#000000</color>
+    <color name="answerColor">#a9a9a9</color>
+    <color name="ratingColor">#e71c28</color>
+    <color name="timeColor">#d9d9d9</color>
+    <color name="gray">#e5e5e5</color>
+</resources>
